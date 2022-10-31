@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  font-family: fantasy;
+  background-color: whitesmoke;
+  margin: 0;
+}
+.title {
+  font-size: 3em;
+}
+.options {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  margin: 0 6em;
+}
+.rock {
+  flex: 1;
+  height: 2em;
+  border: none;
+  font-size: 1em;
+}
+.paper {
+  flex: 1;
+  height: 2em;
+  border: none;
+  font-size: 1em;
+}
+.scissors {
+  flex: 1;
+  height: 2em;
+  border: none;
+  font-size: 1em;
+}
+.page {
+  background-color: #2222;
+  padding: 1em;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+.player {
+  flex: 1;
+  background-color: #2922;
+}
+.computer {
+  background-color: #9222;
+  flex: 1;
+}
+span {
+  text-align: right;
+}
